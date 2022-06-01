@@ -1,16 +1,17 @@
 import React from "react";
 import LogoImage from "../Utils/Images";
+import Progress from "../Utils/Progress";
 
 const LeftSidebar = () => {
   return (
-    <div className="bg-[#15132E] ml-0 md:ml-8 mr-0 md:mr-1 p-4 rounded-md md:w-[35%] mx-auto w-[100%]">
+    <div className="bg-[#15132E] ml-0 md:ml-8 mr-0 md:mr-1 p-4 rounded-md md:w-[35%] mx-auto w-[100%] md:sticky md:top-3">
       {/* 1st  */}
       <div className="flex items-center justify-start">
         <LogoImage main={true} />
 
         <div className="ml-3">
           <h3 className="text-3xl font-alfphabet text-white mb-2">LUNA</h3>
-          <span className="py-1 px-2 bg-opacity-40 bg-green-700 text-green-500 font-normal rounded-xl align-middle">
+          <span className="py-1 px-2 bg-opacity-40 bg-green-700 text-green-500 font-normal rounded-xl align-middle text-xs">
             Opening
           </span>
         </div>
@@ -21,7 +22,7 @@ const LeftSidebar = () => {
         <p className="mt-4 mb-6">
           <a
             href="#!"
-            className="py-2  bg-gradient-to-r from-[#6825e7] to-[#aa58b8] text-white border-2 border-[#ba84ff] rounded-lg px-2 "
+            className="py-4  bg-gradient-to-r from-[#6825e7] to-[#aa58b8] text-white border-2 border-[#ba84ff] rounded-lg px-2 "
           >
             Connect Wallet
           </a>
@@ -42,7 +43,7 @@ const LeftSidebar = () => {
           </h6>
           <p className="font-rubik text-[#BA84FF]">90.07%</p>
         </div>
-        <div></div>
+        <Progress progress="90%" />
 
         <p className="text-gray-500 opacity-90 text-right font-rubik">
           <span>9 006 999 999 999 999 / 10 000 000 000 000 000</span> LUNA

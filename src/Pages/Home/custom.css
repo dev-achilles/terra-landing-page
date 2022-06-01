@@ -17,3 +17,10 @@
 .footer-btn {
   box-shadow: 0 0 24px 0 rgb(133 60 210 / 50%);
 }
+
+@media (min-width: 960px) {
+  .lg\:sticky {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+  }
+}
