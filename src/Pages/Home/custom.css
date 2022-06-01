@@ -1,0 +1,19 @@
+.custom-text {
+  --tw-text-opacity: 1;
+  color: rgb(186 132 255 / var(--tw-text-opacity));
+  background-image: linear-gradient(
+    90deg,
+    #0bbdda 0,
+    #7d58f2 39%,
+    #fb71ae
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+.custom-bg-darkGray {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(30 29 42 / var(--tw-bg-opacity)) !important;
+}
+.footer-btn {
+  box-shadow: 0 0 24px 0 rgb(133 60 210 / 50%);
+}

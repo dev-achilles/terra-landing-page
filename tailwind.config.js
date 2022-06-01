@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         rubik: "'Rubik', sans-serif",
+        roboto: "'Roboto', sans-serif",
         alfphabet: "'Alfphabet' , sans-serif",
       },
       backgroundImage: {
